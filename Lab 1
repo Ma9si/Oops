@@ -48,3 +48,44 @@ b=c;
 }
 }
 
+//Commnd Line Calculator
+
+// To find sum of 2 numbers
+
+public class Calculator
+{
+public static void main(String args[])
+{
+int a,b;
+if(args[0]=="addition")
+a=Integer.parseInt(args[1]);
+b=Integer.parseInt(args[2]);
+c=a+b;
+System.out.println("c is sum of these numbers");
+
+
+if(args[0]=="subtraction")
+a=Integer.parseInt(args[1]);
+b=Integer.parseInt(args[2]);
+c=a-b;
+System.out.println(c +" is subtraction of of these two numbers");
+
+if(args[0]=="multiplication")
+a=Integer.parseInt(args[1]);
+b=Integer.parseInt(args[2]);
+c=a*b;
+System.out.println(c +" is multiplicaton of of these two numbers");
+
+if(args[0]=="division")
+a=Integer.parseInt(args[1]);
+b=Integer.parseInt(args[2]);
+c=a/b;
+System.out.println(c +" is division of of these two numbers");
+}
+}
+
+
+
+
+
+
