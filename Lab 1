@@ -31,3 +31,20 @@ System.out.println(c +" is sum of of these two numbers");
 }
 }
 
+//Fibonacci Series
+
+public class Fibo
+{
+public static void main(String args[])
+{
+int a=0,b=1,c;
+for(int j=2; j<=10; j++)
+{
+c=a+b;
+System.out.println(c);
+a=b;
+b=c;
+}
+}
+}
+
